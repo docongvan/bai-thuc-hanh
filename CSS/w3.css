@@ -2,4 +2,12 @@ body {
   background-color: lightblue;
 }
 
-/*Đỗ Công Văn 2121051195
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
