@@ -1,7 +1,10 @@
 h1{
-  display: block;
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
 }
 p{
-  display: inline;
-}
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;}
 /*Đỗ Công Văn 2121051195
