@@ -1,7 +1,10 @@
 h1{
-  border-style: dotted;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 p{
-  border-style: inset;
+  margin: 25px 50px 75px 100px;
 }
 /*Đỗ Công Văn 2121051195
