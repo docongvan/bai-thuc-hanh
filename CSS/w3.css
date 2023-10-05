@@ -1,9 +1,7 @@
 h1{
-  text-decoration-line: overline;
-  text-decoration-color: red;
+  letter-spacing: 5px;
 }
 p{
-  text-decoration-line: overline underline;
-  text-decoration-color: purple;
+  word-spacing: 10px;
 }
 /*Đỗ Công Văn 2121051195
