@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-<link rel="stylesheet" href="mystyle.css">
-
-</head>
-
-<body>
-
-
-
-
-<h1>This is a heading</h1>
-
-<p>This is a paragraph.</p>
-
-
-
-
-</body>
-
-</html>
-
-/*Đỗ Công Văn 2121051195 
-
-/*Khi trình duyệt đọc một style sheet, nó sẽ định dạng tài liệu HTML theo thông tin trong style sheet.
+/* This is a single-line comment */
+p {
+  color: red;
+}
+/*Đỗ Công Văn 2121051195
