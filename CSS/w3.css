@@ -1,21 +1,7 @@
-ul.a {
-  list-style-type: circle;
+h1{
+  display: block;
 }
-
-ul.b {
-  list-style-type: square;
-}
-
-ol.c {
-  list-style-type: upper-roman;
-}
-
-ol.d {
-  list-style-type: lower-alpha;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+p{
+  display: inline;
 }
 /*Đỗ Công Văn 2121051195
