@@ -1,9 +1,7 @@
 h1{
-  background-color: lightgrey;
-  color: blue;
+  text-transform: uppercase;
 }
 p{
-  background-color: black;
-  color: white;
+  text-transform: lowercase;
 }
 /*Đỗ Công Văn 2121051195
