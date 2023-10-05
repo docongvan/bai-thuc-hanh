@@ -1,13 +1,7 @@
 h1{
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  outline-style: dotted;
 }
 p{
-  width: 320px;
-  padding: 10px;
-  border: 5px solid gray;
-  margin: 0;
+  outline-style: outset;
 }
 /*Đỗ Công Văn 2121051195
