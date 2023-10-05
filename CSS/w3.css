@@ -1,7 +1,8 @@
 h1{
-  letter-spacing: 5px;
+  text-shadow: 2px 2px;
 }
 p{
-  word-spacing: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 /*Đỗ Công Văn 2121051195
