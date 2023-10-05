@@ -1,7 +1,7 @@
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+div {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
 }
 /*Đỗ Công Văn 2121051195
