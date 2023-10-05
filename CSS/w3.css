@@ -1,10 +1,11 @@
 h1{
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
 }
 p{
-  padding: 25px 50px 75px 100px;
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
 }
 /*Đỗ Công Văn 2121051195
