@@ -1,10 +1,10 @@
 h1{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 p{
-  margin: 25px 50px 75px 100px;
+  padding: 25px 50px 75px 100px;
 }
 /*Đỗ Công Văn 2121051195
