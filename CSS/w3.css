@@ -1,7 +1,9 @@
 h1{
-  outline-style: dotted;
+  background-color: lightgrey;
+  color: blue;
 }
 p{
-  outline-style: outset;
+  background-color: black;
+  color: white;
 }
 /*Đỗ Công Văn 2121051195
