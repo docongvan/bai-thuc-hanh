@@ -1,7 +1,9 @@
 h1{
-  text-transform: uppercase;
+  text-decoration-line: overline;
+  text-decoration-color: red;
 }
 p{
-  text-transform: lowercase;
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;
 }
 /*Đỗ Công Văn 2121051195
