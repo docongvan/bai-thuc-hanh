@@ -1,8 +1,16 @@
-h1{
-  font-size: 40px;
+a:link {
+  background-color: yellow;
 }
-p{
-  font-size: 400px;
 
+a:visited {
+  background-color: cyan;
 }
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
 /*Đỗ Công Văn 2121051195
