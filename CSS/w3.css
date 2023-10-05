@@ -1,18 +1,5 @@
-span.a {
-  display: inline; /* the default for span */
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;
-  background-color: yellow;
-}
-
-span.b {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  border: 1px solid blue;
-  background-color: yellow;
+.center {
+  text-align: center;
+  border: 3px solid green;
 }
 /*Đỗ Công Văn 2121051195
