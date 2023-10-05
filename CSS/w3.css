@@ -1,13 +1,7 @@
-div.relative {
-  position: relative;
-  left: 30px;
-  border: 3px solid #73AD21;
-}
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  border: 3px solid #73AD21;
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 /*Đỗ Công Văn 2121051195
