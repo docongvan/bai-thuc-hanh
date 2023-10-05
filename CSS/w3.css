@@ -1,7 +1,7 @@
-body {
-  background-image: url("img_tree.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+h1{
+  border-style: dotted;
+}
+p{
+  border-style: inset;
 }
 /*Đỗ Công Văn 2121051195
