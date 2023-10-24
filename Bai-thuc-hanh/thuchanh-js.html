@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <script>
-        function checkForm(){
-            var number = document.getElementById('t1').value;
-            var number2 = document.getElementById('t2').value;
-            if(isNaN(number) || isNaN(number2)){
-                alert("a và b bạn nhập không phải số")
-
-            }else{
-                var result = parseInt(number) + parseInt(number2);
-                document.getElementById('t3').value = result;
-            }
-        }
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('#red').onclick = function() {
+                document.querySelector('#hello').style.color = 'red';
+            };
+            document.querySelector('#blue').onclick = function() {
+                document.querySelector('#hello').style.color = 'blue';
+            };
+            document.querySelector('#green').onclick = function(){
+                document.querySelector('#hello').style.color = 'green';
+            };
+        });
     </script>
-    <style>
-        #t3{
-            border-style: none;
-        }
-    </style>
+
+
 </head>
 <body>
-
-    <form id="myform">
-        Nhập số a<input type="text" id="t1"/><br>
-        Nhập số b<input type="text" id="t2"/><br>
-        Tổng a và b là :<input type="text" id="t3"/><br>
-        <input type="button" value="Tính tổng" onclick="checkForm()">
-    </form>
-   
+    <h1 id="hello">Hello</h1>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <button id="green">Green</button>
 </body>
 </html>
