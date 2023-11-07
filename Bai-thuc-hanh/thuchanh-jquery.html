@@ -5,16 +5,16 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("#div1").load("demo_test.txt");
+    $.get("demo_test.asp", function(data, status){
+      alert("Data: " + data + "\nStatus: " + status);
+    });
   });
 });
 </script>
 </head>
 <body>
 
-<div id="div1"><h2>Đỗ Công Văn 2121051195</h2></div>
-
-<button>Get External Content</button>
+<button>Đỗ Công VĂn 2121051195</button>
 
 </body>
 </html>
