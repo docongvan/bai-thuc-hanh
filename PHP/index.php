@@ -6,7 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    Welcome <?php echo $GET["name"]; ?><br>
-    Your email address is : <?php echo $_GET["email"];?>
+    <form action="6-formPost.php" method="post">
+        <p>Name : </p>
+        <input type="text" name="name"><br>
+
+        <p>E-mail : </p>
+        <input type="text" name="email"><br>
+
+        <p></p>
+        <input type="submit">
+    </form>
 </body>
 </html>
