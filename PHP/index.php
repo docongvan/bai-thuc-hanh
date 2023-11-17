@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-   Welcome <?php echo $_POST["name"]; ?> <br>
-   your email address is : <?php echo $_POST["email"]; ?>
+    Resulr:
+    <?php $result = $_GET["firdtNumber"] + $_GET["secondNumber"];
+    echo $result;
+    ?>
 </body>
 </html>
