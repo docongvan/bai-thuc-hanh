@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
     {
         echo "has been quited ";
     } 
-    else if ($_GET["respons"] == "no" )
+    else
     {
         echo " will be continued in 3 second ";
     }
