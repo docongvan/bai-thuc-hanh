@@ -5,13 +5,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>quit the game ?</h3>
-    <form action="8-ifResult.php" method="get">
-        <select name="response" id="">
-            <option value="yes">yes</option>
-            <option value="no">no</option>
-        </select>
-        <input type="submit" value="submit">
-    </form>
+    <?php echo "the game ";
+    if ($_GET["response"] == "yes")
+    {
+        echo "has been quited ";
+    } 
+    else if ($_GET["respons"] == "no" )
+    {
+        echo " will be continued in 3 second ";
+    }
+    echo "<br> after if statment ";
+    ?>
 </body>
 </html>
